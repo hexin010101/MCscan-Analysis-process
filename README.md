@@ -32,6 +32,7 @@ python -m jcvi.compara.catalog ortholog B73 Y82 --no_strip_names
  $ vim seqids 
 
 
-```chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,<br>
-chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,
+```
+1,2,3,4,5,6,7,8,9,10
+Y82_chr1,Y82_chr2,Y82_chr3,Y82_chr4,Y82_chr5,Y82_chr6,Y82_chr7,Y82_chr8,Y82_chr9,Y82_chr10
 ```
