@@ -22,7 +22,7 @@ python -m jcvi.formats.fasta format Y82.pep.fa.gz Y82.pep
 ```
 4. 比对
 ```
-python -m jcvi.compara.catalog ortholog B73 Y82 --no_strip_names
+python -m jcvi.compara.catalog ortholog --dbtype prot B73 Y82 --no_strip_names
 ```
 这里会生成 **B73.Y82.anchors**这个比对文件
 
