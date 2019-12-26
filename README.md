@@ -3,16 +3,16 @@
 <p align="center">
     <img src="https://github.com/hexin010101/MCscan-Analysis-process/blob/master/K5U6%25N5VI69SKPS%5D%7BG%60%25SFD.png"  width="85%" />
 </p>
-#### 下载安装
+#### 1 下载安装
 ```
 pip install jcvi
 
 ```
 
-2. 数据准备
+#### 2 数据准备
  需要比对的两个物种的gff文件和蛋白质fasta文件（cds文件也可以）
  以B73和Y82为例
-#### 3. 数据前处理
+#### 3 数据前处理
 >  处理gff文件为bed格式
 ```
 
