@@ -36,13 +36,15 @@ python -m jcvi.compara.catalog ortholog B73 Y82 --no_strip_names
 1,2,3,4,5,6,7,8,9,10
 Y82_chr1,Y82_chr2,Y82_chr3,Y82_chr4,Y82_chr5,Y82_chr6,Y82_chr7,Y82_chr8,Y82_chr9,Y82_chr10
 ```
-> 创建layout文件夹
+> 创建layout文件
 ```
 # y, xstart, xend, rotation, color, label, va,  bed
  .6,     .2,    .9,       0,      , B73,  top, B73.bed
  .4,     .2,    .9,       0,      , Y82,  top, Y82.bed
 # edges
 e, 0, 1, B73.Y82.anchors.simple
-
-
 ```
+6. 从anchors文件生成simple文件
+`python -m jcvi.compara.synteny screen --minspan=30 --simple B73.Y82.anchors B73.Y82.anchors.new`
+7. 画图
+`python -m jcvi.graphics.karyotype seqids layout`
