@@ -25,10 +25,12 @@ python -m jcvi.formats.fasta format Y82.pep.fa.gz Y82.pep
 python -m jcvi.compara.catalog ortholog B73 Y82 --no_strip_names
 ```
 这里会生成 **B73.Y82.anchors**这个比对文件
+
+***
 5. 配置文件
 $ vim seqids 
 
 
-<code>chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,
+<code>chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,</br>
 chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,
 </code>
