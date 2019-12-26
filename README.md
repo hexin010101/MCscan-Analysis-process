@@ -52,3 +52,4 @@ python -m jcvi.compara.synteny screen --minspan=30 --simple B73.Y82.anchors B73.
 ```
 python -m jcvi.graphics.karyotype seqids layout
 ```
+<center><embed src="https://github.com/hexin010101/MCscan-Analysis-process/blob/master/karyotype(1).pdf" width="850" height="600"></center>
