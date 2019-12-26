@@ -28,9 +28,10 @@ python -m jcvi.compara.catalog ortholog B73 Y82 --no_strip_names
 
 ***
 5. 配置文件
-$ vim seqids 
+ > 创建seqids文件
+ $ vim seqids 
 
 
-<code>chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,</br>
+<code>chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,<br>
 chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,
 </code>
