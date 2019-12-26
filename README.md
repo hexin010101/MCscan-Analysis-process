@@ -1,9 +1,9 @@
 # MCscan-Analysis-process
 使用MCscan的python版本绘制共线性分析图（python version）
-<p align="center">
+<p>
     <img src="https://github.com/hexin010101/MCscan-Analysis-process/blob/master/K5U6%25N5VI69SKPS%5D%7BG%60%25SFD.png"  width="85%" />
 </p>
-____
+
 1. 下载安装
 ```
 pip install jcvi
